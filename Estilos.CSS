@@ -1,0 +1,44 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: #eee;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    min-height: 100px; /* Altura mínima para evitar que los bloques sean muy pequeños */
+    margin-bottom: 20px; /* Espacio entre bloques */
+    background-color: #fa4f3e;
+}
+
+/* Estilos para el texto dentro de las secciones */
+.section h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.section-sin-flex {
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    background-color: #fa4f3e;
+}
+
+
+.section-button {
+    font-family: 'Rubik', sans-serif;
+    margin-left: 40%;
+}
+
+
